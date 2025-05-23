@@ -97,7 +97,7 @@ Both player and enemies use instances of a `Projectile` class.
 - Displayed at top right of screen
 
 ## 9. UML 
-![uml diagram]
+![uml diagram](SpaceShooter UML.png)
 
 ## 10. Flowchart
-![flow state diagram]
+![flow state diagram](Spaceshooter F.png)
