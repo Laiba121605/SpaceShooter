@@ -17,7 +17,7 @@ void Ship::draw() const
     Vector2 pos{ (float)positionx, (float)positiony };
     DrawTextureEx(sprite, pos, angle, 0.075f, WHITE);
 
-    // healthbar display
+    // healthbar displayfeb600a
 
     float hpbarw = 40, hpbarh = 5;
     float pct = (float)health / maxhealth;
