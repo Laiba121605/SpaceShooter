@@ -10,8 +10,8 @@ EnemyShip::EnemyShip(int posx, int posy, const char* path)
 void EnemyShip::rotatetowards(int tx, int ty)
 {
     // linear algebra 🔥🔥🔥
-    float dx = tx - positionx;
-    float dy = ty - positiony;
+    float dx = tx - positionx.get();
+    float dy = ty - positiony.get();
     float length = sqrtf((dx * dx) + (dy * dy));
 
     if (length > 0) 
@@ -23,8 +23,8 @@ void EnemyShip::rotatetowards(int tx, int ty)
 
 void EnemyShip::movetowards(int tx, int ty)
 {
-    float dx = tx - positionx;
-    float dy = ty - positiony;
+    float dx = tx - positionx.get();
+    float dy = ty - positiony.get();
     float dist = sqrt((dx * dx) + (dy * dy));
 
     if (dist > 3)
@@ -38,8 +38,8 @@ void EnemyShip::movetowards(int tx, int ty)
         velocityy = 0;
     }
 
-    positionx += (int)velocityx;
-    positiony += (int)velocityy;
+    positionx.set(positionx.get() + (int)velocityx.get());
+    positiony.set(positiony.get() + (int)velocityy.get());
 
     warp();
 }
@@ -48,8 +48,8 @@ void EnemyShip::fireprojectile(vector<Projectile>& projectiles, int tx, int ty)
 {
     if (firecooldown == 0)
     {
-        float dx = tx - positionx;
-        float dy = ty - positiony;
+        float dx = tx - positionx.get();
+        float dy = ty - positiony.get();
         float ang;
 
         if (dx == 0)   // to avoid division by zero
@@ -88,7 +88,7 @@ void EnemyShip::fireprojectile(vector<Projectile>& projectiles, int tx, int ty)
             }
         }
 
-        projectiles.emplace_back(positionx, positiony, ang, 8.0f, 15, false);
+        projectiles.emplace_back((int)positionx.get(), (int)positiony.get(), ang, 8.0f, 15, false);
         firecooldown = 40;
     }
 	else if (firecooldown > 0)
