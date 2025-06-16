@@ -4,7 +4,7 @@
 
 PlayerShip::PlayerShip(int posx, int posy, const char* path) :
     Ship(posx, posy, GREEN, path), score(0), firecooldown(0),
-    rotationspeed(3.0f), thrustpower(0.2f)
+	rotationspeed(3.0f), thrustpower(0.2f), projectiledamage(50)
 {}
 
 void PlayerShip::rotate()
@@ -27,49 +27,52 @@ void PlayerShip::move()
     {
         float rad = (angle - 90.0f) * DEG2RAD;
 
-        velocityx += cos(rad) * thrustpower;
-        velocityy += sin(rad) * thrustpower;
+        velocityx.set(velocityx.get() + cos(rad) * thrustpower);
+        velocityy.set(velocityy.get() + sin(rad) * thrustpower);
 
-        if (velocityx > maxspeed)
+        if (velocityx.get() > maxspeed)
         {
-            velocityx = maxspeed;
+            velocityx.set(maxspeed);
         }
-		if (velocityy > maxspeed)
-		{
-			velocityy = maxspeed;
-		}
+        if (velocityy.get() > maxspeed)
+        {
+            velocityy.set(maxspeed);
+        }
     }
     else if (IsKeyDown(KEY_DOWN))
     {
-        velocityx *= 0.98f;
-        velocityy *= 0.98f;
+        float rad = (angle + 90.0f) * DEG2RAD;
 
-        if (fabs(velocityx) < 0.01f)
+        velocityx.set(velocityx.get() + cos(rad) * thrustpower);
+        velocityy.set(velocityy.get() + sin(rad) * thrustpower);
+
+        if (velocityx.get() > maxspeed)
         {
-            velocityx = 0;
+            velocityx.set(maxspeed);
         }
-		if (fabs(velocityy) < 0.01f)
-		{
-			velocityy = 0;
-		}
+        if (velocityy.get() > maxspeed)
+        {
+            velocityy.set(maxspeed);
+        }
 	}
 	else
 	{
-		velocityx *= 0.98f;
-		velocityy *= 0.98f;
+		velocityx.set(velocityx.get() * 0.98f);
+        velocityy.set(velocityy.get() * 0.98f);
 
-		if (fabs(velocityx) < 0.01f)
+        // so it stops when no key is pressed
+		if (fabs(velocityx.get()) < 0.01f)
 		{
 			velocityx = 0;
 		}
-        if (fabs(velocityy) < 0.01f)
+        if (fabs(velocityy.get()) < 0.01f)
         {
             velocityy = 0;
         }
     }
 
-    positionx += (int)velocityx;
-    positiony += (int)velocityy;
+    positionx.set(positionx.get() + (int)velocityx.get());
+    positiony.set(positiony.get() + (int)velocityy.get());
 
     warp();
 }
@@ -78,7 +81,7 @@ void PlayerShip::fireprojectile(vector<Projectile>& projectiles)
 {
     if (IsKeyDown(KEY_SPACE) && firecooldown == 0)
     {
-        projectiles.emplace_back(positionx, positiony, angle-85, 12.0f, 50, true);
+        projectiles.emplace_back((int)positionx.get(), (int)positiony.get(), angle - 85, 12.0f, projectiledamage, true);
         firecooldown = 12;
 	}
 
@@ -112,4 +115,40 @@ void PlayerShip:: addscore(int points)
 Texture PlayerShip::getsprite() const
 {
     return sprite;
+}
+
+int PlayerShip::getmaxhealth() const
+{
+	return maxhealth;
+}
+
+void PlayerShip::heal(int m)
+{
+    maxhealth = m;
+    health = m; // reset health to max when setting max health
+}
+
+void PlayerShip::setspeed(float s)
+{
+	thrustpower = s; // for powerup, treat thrustpower as speed
+}
+
+float PlayerShip::getspeed() const
+{
+	return thrustpower;
+}
+
+void PlayerShip::setradius(int r)
+{
+	radius.set(r);
+}
+
+void PlayerShip::setdamage(int d)
+{
+	projectiledamage = d;
+}
+
+int PlayerShip::getdamage() const
+{
+    return projectiledamage;
 }

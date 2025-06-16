@@ -13,6 +13,7 @@ class PlayerShip : public Ship
     int firecooldown;
     float rotationspeed;
     float thrustpower;
+    int projectiledamage;
 
 public:
     PlayerShip(int posx, int posy, const char* path);
@@ -23,6 +24,13 @@ public:
     int getscore() const;
     void addscore(int points);
     Texture getsprite() const;
+    int getmaxhealth() const;
+    void heal(int amt);
+    void setspeed(float s);
+    float getspeed() const;
+    void setradius(int r);
+    void setdamage(int d);
+    int getdamage() const;
 };
 
 #endif
