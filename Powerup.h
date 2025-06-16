@@ -9,9 +9,9 @@ using namespace std;
 class PowerUp 
 {
 protected:
-    int positionx;
-    int positiony;
-    int radius;
+    SafeValue <int> positionx;
+    SafeValue <int> positiony;
+    SafeValue <int> radius;
     Color color;
     bool active;
     int duration;  // baiscally the number of frames the effect lasts

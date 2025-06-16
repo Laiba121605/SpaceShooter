@@ -9,23 +9,23 @@ void PowerUp::draw() const
 {
 	if (active)
 	{
-		DrawCircle(positionx, positiony, (float)radius, color);
+		DrawCircle(positionx.get(), positiony.get(), (float)radius.get(), color);
 	}
 }
 
 int PowerUp::getx() const
 {
-	return positionx;
+	return positionx.get();
 }
 
 int PowerUp::gety() const
 {
-	return positiony;
+	return positiony.get();
 }
 
 int PowerUp::getradius() const
 {
-	return radius;
+	return radius.get();
 }
 
 bool PowerUp::isactive() const
