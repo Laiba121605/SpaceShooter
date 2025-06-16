@@ -1,33 +1,28 @@
 ﻿#include "Asteroid.h"
 
 Asteroid::Asteroid(float posx, float posy, int dmg, const char* path) :
-    positionx(posx), positiony(posy), angle(0.0f), radius(70), isdead(false), lifetime(500),
+    positionx(posx), positiony(posy), angle(0.0f), radius(30), isdead(false),
     damage(dmg), color(GRAY), rotationspeed(1.0f), speed(1.5f)
 {
     sprite = LoadTexture(path);
 }
 
-void Asteroid::update(int tx,int ty)
+void Asteroid::update(int px, int py)
 {
     move();
-    rotatetowards(tx, ty);
+    rotatetowards(px, py);
 	if (offscreen(GetScreenWidth(), GetScreenHeight()))
 	{
-		isdead = true; // destroy asteroid if it goes offscreen
+		isdead = true; // it destroys asteroid if it goes offscreen
 	}
     rotate();
-    lifetime--;
-    if (lifetime <= 0)
-    {
-        isdead = true;
-    }
 }
 
 void Asteroid::rotatetowards(int tx, int ty)
 {
     // linear algebra 🔥🔥🔥
-    float dx = tx - positionx;
-    float dy = ty - positiony;
+    float dx = tx - positionx.get();
+    float dy = ty - positiony.get();
     float length = sqrtf((dx * dx) + (dy * dy));
 
     if (length > 0)
@@ -39,14 +34,14 @@ void Asteroid::rotatetowards(int tx, int ty)
 
 void Asteroid::draw() const
 {
-    Vector2 pos{ positionx, positiony };
-    DrawTextureEx(sprite, pos, angle, 0.150f, WHITE);
+    Vector2 pos{ positionx.get(), positiony.get()};
+    DrawTextureEx(sprite, pos, angle, 0.200f, WHITE);
 }
 
 void Asteroid::move()
 {
-    positionx += cos(angle * DEG2RAD) * speed;
-    positiony += sin(angle * DEG2RAD) * speed;
+    positionx.set(positionx.get() + cos(angle * DEG2RAD) * speed);
+    positiony.set(positiony.get() + sin(angle * DEG2RAD) * speed);
 }
 
 void Asteroid::rotate()
@@ -65,8 +60,8 @@ void Asteroid::destroy()
 
 bool Asteroid::offscreen(int screenw, int screenh) const
 {
-    return ((positionx < -radius) || (positionx > screenw + radius) ||
-        (positiony < -radius) || (positiony > screenh + radius));
+    return ((positionx.get() < -radius.get()) || (positionx.get() > screenw + radius.get()) ||
+        (positiony.get() < -radius.get()) || (positiony.get() > screenh + radius.get()));
 }
 
 bool Asteroid::dead() const
@@ -81,17 +76,17 @@ int Asteroid::getdamage() const
 
 int Asteroid::getradius() const
 {
-    return radius;
+    return radius.get();
 }
 
 float Asteroid::getx() const
 {
-    return positionx;
+    return positionx.get();
 }
 
 float Asteroid::gety() const
 {
-    return positiony;
+    return positiony.get();
 }
 
 Asteroid::~Asteroid()
