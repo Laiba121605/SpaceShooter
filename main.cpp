@@ -104,20 +104,21 @@ int main()
         {
             ClearBackground(BLACK);
             DrawTextureEx(mainmenu, pos, 0.0f, 1, WHITE);
+			DrawText("Space Shooter", screenwidth / 2 - 375, screenheight / 2 - 200, 100, SKYBLUE);
 
-            Rectangle newButton = { screenwidth / 2.0f - 100, screenheight / 2.0f - 60, 200, 50 };
-            Rectangle loadButton = { screenwidth / 2.0f - 100, screenheight / 2.0f + 10, 200, 50 };
+            Rectangle newbutton = { screenwidth / 2.0f - 110, screenheight / 2.0f - 60, 200, 50 };
+            Rectangle loadbutton = { screenwidth / 2.0f - 110, screenheight / 2.0f + 10, 200, 50 };
 
-            if (DrawButton(newButton, "New Game", GRAY, DARKBLUE, WHITE))
+            if (DrawButton(newbutton, "New Game", GRAY, DARKBLUE, WHITE))
             {
                 logger.writeerror("New Game started.");
                 gamestate = 1;
             }
-            if (DrawButton(loadButton, "Load Game", GRAY, DARKBLUE, WHITE))
+            if (DrawButton(loadbutton, "Load Game", GRAY, DARKBLUE, WHITE))
             {
                 logger.writeerror("Load Game clicked.");
             }
-            DrawText("Click to start", screenwidth / 2 - 70, screenheight / 2 + 90, 20, WHITE);
+            DrawText("Click to start", screenwidth / 2 - 80, screenheight / 2 + 90, 20, WHITE);
 
             EndDrawing();
             continue;
