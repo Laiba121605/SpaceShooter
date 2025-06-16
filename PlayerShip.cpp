@@ -4,7 +4,7 @@
 
 PlayerShip::PlayerShip(int posx, int posy, const char* path) :
     Ship(posx, posy, GREEN, path), score(0), firecooldown(0),
-	rotationspeed(3.0f), thrustpower(0.2f), projectiledamage(50)
+	rotationspeed(3.0f), thrustpower(0.3f), projectiledamage(50)
 {}
 
 void PlayerShip::rotate()
@@ -130,7 +130,7 @@ void PlayerShip::heal(int m)
 
 void PlayerShip::setspeed(float s)
 {
-	thrustpower = s; // for powerup, treat thrustpower as speed
+	thrustpower = s; // for powerup (treating thrustpower as speed)
 }
 
 float PlayerShip::getspeed() const

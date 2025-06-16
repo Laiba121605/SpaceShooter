@@ -11,12 +11,12 @@ class Asteroid
     SafeValue <int> positiony;
     SafeValue <int> radius;
     float angle;
-    float rotation;       // rotation angle, for drawing
+    float rotation;       // rotation angle
     float speed;
     int damage;           // damage dealt on collision
     int rotationspeed;    // how fast the asteroid spins
-    bool isdead;          // whether the asteroid is destroyed
-    Texture2D sprite;     // texture for the asteroid
+    bool isdead; 
+    Texture2D sprite;  
     Color color;
 
 public:

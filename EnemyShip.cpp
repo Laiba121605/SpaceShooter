@@ -32,7 +32,7 @@ void EnemyShip::movetowards(int tx, int ty)
         velocityx = (dx / dist) * speed;
         velocityy = (dy / dist) * speed;
     }
-    else // close enough to PlayerShip
+    else // when close enough to PlayerShip, it should stop
     {
         velocityx = 0;
         velocityy = 0;
