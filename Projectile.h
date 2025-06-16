@@ -2,18 +2,19 @@
 #define PROJECTILE_H
 
 #include "raylib.h"
+#include "SafeValue.h"
 using namespace std;
 
 class Projectile
 {
-    float x;
-    float y;
-    float angle;
+    SafeValue <float> x;
+    SafeValue <float> y;
+    SafeValue <int> radius;
     float speed;
     int damage;
     bool fromplayer;
     int lifetime;
-    int radius;
+    float angle;
 
 public:
     Projectile(int sx, int sy, float ang, float spd, int dmg, bool playerowned);

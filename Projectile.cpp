@@ -7,8 +7,8 @@ Projectile::Projectile(int sx, int sy, float ang, float spd, int dmg, bool playe
 
 void Projectile::update()
 {
-    x += cos(angle * DEG2RAD) * speed;
-    y += sin(angle * DEG2RAD) * speed;
+    x.set(x.get() + cos(angle * DEG2RAD) * speed);
+    y.set(y.get() + sin(angle * DEG2RAD) * speed);
     lifetime--;
 }
 
@@ -16,17 +16,17 @@ void Projectile::draw() const
 {
     if (fromplayer)
     {
-		DrawCircle((int)x, (int)y, (float)radius, SKYBLUE);
+		DrawCircle((int)x.get(), (int)y.get(), (float)radius.get(), GREEN);
 	}
 	else
 	{
-		DrawCircle((int)x, (int)y, (float)radius, RED);
+		DrawCircle((int)x.get(), (int)y.get(), (float)radius.get(), RED);
 	}
 }
 
 bool Projectile::isoffscreen(int w, int h) const
 {
-    return (x < 0 || x > w || y < 0 || y > h);
+	return ((x.get() < 0) || (x.get() > w) || (y.get() < 0) || (y.get() > h));
 }
 
 bool Projectile::isfromplayer() const
@@ -36,17 +36,17 @@ bool Projectile::isfromplayer() const
 
 int Projectile::getx() const
 {
-	return (int)x;
+	return (int)x.get();
 }
 
 int Projectile::gety() const
 {
-	return (int)y;
+	return (int)y.get();
 }
 
 int Projectile::getradius() const
 {
-	return radius;
+	return radius.get();
 }
 
 int Projectile::getdamage() const
