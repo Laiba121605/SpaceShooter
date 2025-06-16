@@ -3,20 +3,22 @@
 
 #include <iostream>
 #include "raylib.h"
+#include "SafeValue.h"  
 #include "MyStr.h"
 using namespace std;
 
 class Ship
 {
 protected:
-    int positionx;
-    int positiony;
-    float velocityx;
-    float velocityy;
+    SafeValue <int> positionx;
+    SafeValue <int> positiony;
+    SafeValue <float> velocityx;
+    SafeValue <float> velocityy;
+    SafeValue <int> radius;         // radius for collision detection
+    SafeValue <int> size;          // size of the ship, used for drawing 
     float angle;        // rotation angle in degrees
     float acceleration;
     float mass;
-    int radius;         // radius for collision detection
     int health;
     int maxhealth;
     Texture2D sprite;
@@ -33,6 +35,7 @@ public:
     int getx() const;
     int gety() const;
     int getradius() const;
+    SafeValue<int> getsize() const;
     int gethealth() const;
     void takedamage(int dmg);
     bool isdead() const;

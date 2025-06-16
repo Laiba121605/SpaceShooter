@@ -4,7 +4,7 @@
 
 Ship::Ship(int posx, int posy, Color col, const char* path) :
     positionx(posx), positiony(posy), velocityx(0), velocityy(0), angle(0.0f),
-    acceleration(0.1f), mass(1.0f), radius(20), health(100), maxhealth(100), color(col)
+    acceleration(0.1f), mass(1.0f), radius(20), health(100), maxhealth(100), color(col), size(0.100)
 {
     sprite = LoadTexture(path);
 }
@@ -14,10 +14,10 @@ void Ship::move() {}
 
 void Ship::draw() const
 {
-    Vector2 pos{ (float)positionx, (float)positiony };
-    DrawTextureEx(sprite, pos, angle, 0.075f, WHITE);
+    Vector2 pos{ (float)positionx.get(), (float)positiony.get()};
+    DrawTextureEx(sprite, pos, angle, 0.100f, RAYWHITE);
 
-    // healthbar displayfeb600a
+    // healthbar display
 
     float hpbarw = 40, hpbarh = 5;
     float pct = (float)health / maxhealth;
@@ -28,8 +28,8 @@ void Ship::draw() const
 		return; // so health is not drawn when dead
 	}
 
-    DrawRectangle(positionx - 20, positiony + radius + 10, hpbarw, hpbarh, GRAY);
-    DrawRectangle(positionx - 20, positiony + radius + 10, (int)(hpbarw * pct), hpbarh, GREEN);
+    DrawRectangle(positionx.get() - 20, positiony.get() + radius.get() + 10, hpbarw, hpbarh, GRAY);
+    DrawRectangle(positionx.get() - 20, positiony.get() + radius.get() + 10, (int)(hpbarw * pct), hpbarh, GREEN);
 }
 
 void Ship::warp()
@@ -37,21 +37,21 @@ void Ship::warp()
     int w = GetScreenWidth();
     int h = GetScreenHeight();
 
-    if (positionx < 0)
+    if (positionx.get() < 0)
     {
-        positionx = w;
+        positionx.set(w);
     }
-    if (positionx > w)
+    if (positionx.get() > w)
     {
-        positionx = 0;
+        positionx.set(0);
     }
-    if (positiony < 0)
+    if (positiony.get() < 0)
     {
-        positiony = h;
+        positiony.set(h);
     }
-    if (positiony > h)
+    if (positiony.get() > h)
     {
-        positiony = 0;
+        positiony.set(0);
     }
 }
 
@@ -62,17 +62,17 @@ void Ship::takedamage(int dmg)
 
 int Ship::getx() const
 {
-    return positionx;
+    return positionx.get();
 }
 
 int Ship::gety() const
 {
-    return positiony;
+    return positiony.get();
 }
 
 int Ship::getradius() const
 {
-    return radius;
+    return radius.get();
 }
 
 int Ship::gethealth() const
@@ -88,4 +88,9 @@ bool Ship::isdead() const
 Ship::~Ship()
 {
     UnloadTexture(sprite);
+}
+
+SafeValue<int> Ship::getsize() const
+{
+	return size.get();
 }
