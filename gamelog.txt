@@ -1407,3 +1407,486 @@ Log file initialized: gamelog.txt
 [2025-06-16 09:49:39] TwiceDamagePowerUp effect expired.
 [2025-06-16 09:49:40] Enemy Destroyed.
 [2025-06-16 09:49:40] EnemyShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 09:59:16] Game started.
+[2025-06-16 09:59:16] PlayerShip spawned.
+[2025-06-16 09:59:30] New Game started.
+[2025-06-16 09:59:30] EnemyShip spawned.
+[2025-06-16 09:59:30] Asteroid spawned.
+[2025-06-16 09:59:30] TwiceSpeedPowerUp spawned.
+[2025-06-16 09:59:33] Enemy Destroyed.
+[2025-06-16 09:59:34] Asteroid spawned.
+[2025-06-16 09:59:36] EnemyShip spawned.
+[2025-06-16 09:59:36] Asteroid Destroyed.
+[2025-06-16 09:59:39] Asteroid spawned.
+[2025-06-16 09:59:39] Enemy Destroyed.
+[2025-06-16 09:59:42] EnemyShip spawned.
+[2025-06-16 09:59:43] TwiceSpeedPowerUp spawned.
+[2025-06-16 09:59:44] Asteroid spawned.
+[2025-06-16 09:59:46] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-16 10:02:25] Game started.
+[2025-06-16 10:02:26] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:02:51] Game started.
+[2025-06-16 10:02:51] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:03:02] Game started.
+[2025-06-16 10:03:03] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:03:13] Game started.
+[2025-06-16 10:03:13] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:03:31] Game started.
+[2025-06-16 10:03:31] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:03:42] Game started.
+[2025-06-16 10:03:42] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:03:56] Game started.
+[2025-06-16 10:03:56] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:04:08] Game started.
+[2025-06-16 10:04:08] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:04:19] Game started.
+[2025-06-16 10:04:19] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:04:31] Game started.
+[2025-06-16 10:04:32] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:04:45] Game started.
+[2025-06-16 10:04:45] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:04:54] Game started.
+[2025-06-16 10:04:55] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:05:04] Game started.
+[2025-06-16 10:05:04] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:05:15] Game started.
+[2025-06-16 10:05:16] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:05:34] Game started.
+[2025-06-16 10:05:34] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:05:44] Game started.
+[2025-06-16 10:05:45] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:05:55] Game started.
+[2025-06-16 10:05:55] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:06:34] Game started.
+[2025-06-16 10:06:35] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:06:46] Game started.
+[2025-06-16 10:06:46] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:07:01] Game started.
+[2025-06-16 10:07:01] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:07:31] Game started.
+[2025-06-16 10:07:31] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:07:54] Game started.
+[2025-06-16 10:07:54] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:08:12] Game started.
+[2025-06-16 10:08:13] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:08:24] Game started.
+[2025-06-16 10:08:25] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-16 10:08:34] Game started.
+[2025-06-16 10:08:34] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-17 07:35:29] Game started.
+[2025-06-17 07:35:29] PlayerShip spawned.
+[2025-06-17 07:35:31] New Game started.
+[2025-06-17 07:35:31] EnemyShip spawned.
+[2025-06-17 07:35:31] Asteroid spawned.
+[2025-06-17 07:35:31] MaxHealthPowerUp spawned.
+[2025-06-17 07:35:35] Asteroid spawned.
+[2025-06-17 07:35:35] Enemy Destroyed.
+[2025-06-17 07:35:37] EnemyShip spawned.
+[2025-06-17 07:35:40] Asteroid spawned.
+[2025-06-17 07:35:40] Asteroid Destroyed.
+[2025-06-17 07:35:41] Enemy Destroyed.
+[2025-06-17 07:35:43] EnemyShip spawned.
+[2025-06-17 07:35:44] MaxHealthPowerUp spawned.
+[2025-06-17 07:35:45] Asteroid spawned.
+[2025-06-17 07:35:46] Enemy Destroyed.
+[2025-06-17 07:35:48] Asteroid spawned.
+[2025-06-17 07:35:50] EnemyShip spawned.
+[2025-06-17 07:35:51] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 07:35:57] Game started.
+[2025-06-17 07:35:57] PlayerShip spawned.
+[2025-06-17 07:35:58] New Game started.
+[2025-06-17 07:35:58] EnemyShip spawned.
+[2025-06-17 07:35:58] Asteroid spawned.
+[2025-06-17 07:35:58] TwiceSpeedPowerUp spawned.
+[2025-06-17 07:36:01] Enemy Destroyed.
+Log file initialized: gamelog.txt
+[2025-06-17 08:13:27] Game started.
+[2025-06-17 08:13:28] PlayerShip spawned.
+[2025-06-17 08:13:29] New Game started.
+[2025-06-17 08:13:29] EnemyShip spawned.
+[2025-06-17 08:13:29] Asteroid spawned.
+[2025-06-17 08:13:29] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:13:32] Enemy Destroyed.
+[2025-06-17 08:13:33] Asteroid spawned.
+[2025-06-17 08:13:35] EnemyShip spawned.
+[2025-06-17 08:13:37] Asteroid spawned.
+[2025-06-17 08:13:38] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:15:22] Game started.
+[2025-06-17 08:15:22] PlayerShip spawned.
+[2025-06-17 08:15:24] New Game started.
+[2025-06-17 08:15:24] EnemyShip spawned.
+[2025-06-17 08:15:24] Asteroid spawned.
+[2025-06-17 08:15:24] TwiceDamagePowerUp spawned.
+[2025-06-17 08:15:29] Asteroid spawned.
+[2025-06-17 08:15:30] EnemyShip spawned.
+[2025-06-17 08:15:32] Asteroid spawned.
+[2025-06-17 08:15:35] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:15:36] EnemyShip spawned.
+[2025-06-17 08:15:36] Asteroid spawned.
+Log file initialized: gamelog.txt
+[2025-06-17 08:16:20] Game started.
+[2025-06-17 08:16:20] PlayerShip spawned.
+[2025-06-17 08:16:22] New Game started.
+[2025-06-17 08:16:22] EnemyShip spawned.
+[2025-06-17 08:16:22] Asteroid spawned.
+[2025-06-17 08:16:22] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:16:25] Asteroid spawned.
+[2025-06-17 08:16:27] EnemyShip spawned.
+[2025-06-17 08:16:29] Asteroid spawned.
+[2025-06-17 08:16:29] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:24:56] Game started.
+[2025-06-17 08:24:56] PlayerShip spawned.
+[2025-06-17 08:24:57] New Game started.
+[2025-06-17 08:24:57] EnemyShip spawned.
+[2025-06-17 08:24:57] Asteroid spawned.
+[2025-06-17 08:24:57] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:25:00] Enemy Destroyed.
+[2025-06-17 08:25:00] Asteroid spawned.
+[2025-06-17 08:25:02] EnemyShip spawned.
+[2025-06-17 08:25:04] Asteroid Destroyed.
+Log file initialized: gamelog.txt
+[2025-06-17 08:26:03] Game started.
+[2025-06-17 08:26:03] PlayerShip spawned.
+[2025-06-17 08:26:04] New Game started.
+[2025-06-17 08:26:05] EnemyShip spawned.
+[2025-06-17 08:26:05] Asteroid spawned.
+[2025-06-17 08:26:05] TwiceDamagePowerUp spawned.
+[2025-06-17 08:26:15] Enemy Destroyed.
+[2025-06-17 08:26:16] Asteroid spawned.
+[2025-06-17 08:26:18] EnemyShip spawned.
+[2025-06-17 08:26:20] Asteroid spawned.
+[2025-06-17 08:26:21] Enemy Destroyed.
+[2025-06-17 08:26:31] EnemyShip spawned.
+[2025-06-17 08:26:31] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:26:32] Asteroid spawned.
+[2025-06-17 08:26:36] Quit Game clicked.
+Log file initialized: gamelog.txt
+[2025-06-17 08:29:15] Game started.
+[2025-06-17 08:29:15] PlayerShip spawned.
+[2025-06-17 08:29:17] New Game started.
+[2025-06-17 08:29:18] EnemyShip spawned.
+[2025-06-17 08:29:18] Asteroid spawned.
+[2025-06-17 08:29:18] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:29:21] Enemy Destroyed.
+[2025-06-17 08:29:21] Asteroid Destroyed.
+[2025-06-17 08:29:21] Asteroid Destroyed.
+[2025-06-17 08:29:21] Asteroid Destroyed.
+[2025-06-17 08:29:23] Game Saved.
+[2025-06-17 08:29:25] Game Saved.
+[2025-06-17 08:29:25] Game Saved.
+[2025-06-17 08:29:26] Game Saved.
+[2025-06-17 08:29:26] Game Saved.
+[2025-06-17 08:29:27] Game Saved.
+[2025-06-17 08:29:28] Game Saved.
+[2025-06-17 08:29:29] Game Saved.
+[2025-06-17 08:29:29] Game Saved.
+[2025-06-17 08:29:30] Game Saved.
+[2025-06-17 08:29:30] Game Saved.
+[2025-06-17 08:29:32] Game Saved.
+[2025-06-17 08:29:32] Game Saved.
+[2025-06-17 08:29:33] Game Saved.
+[2025-06-17 08:29:34] Game Saved.
+[2025-06-17 08:29:39] Game Saved.
+[2025-06-17 08:29:40] Quit Game clicked.
+Log file initialized: gamelog.txt
+[2025-06-17 08:29:43] Game started.
+[2025-06-17 08:29:43] PlayerShip spawned.
+[2025-06-17 08:29:44] Load Game clicked.
+[2025-06-17 08:29:45] Asteroid spawned.
+[2025-06-17 08:29:46] EnemyShip spawned.
+[2025-06-17 08:29:48] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:35:30] Game started.
+[2025-06-17 08:35:31] PlayerShip spawned.
+[2025-06-17 08:35:33] New Game started.
+[2025-06-17 08:35:33] EnemyShip spawned.
+[2025-06-17 08:35:33] Asteroid spawned.
+[2025-06-17 08:35:33] TwiceDamagePowerUp spawned.
+[2025-06-17 08:35:36] Enemy Destroyed.
+[2025-06-17 08:35:37] Asteroid spawned.
+[2025-06-17 08:35:38] EnemyShip spawned.
+[2025-06-17 08:35:39] Player collected a TwiceDamagePowerUp.
+[2025-06-17 08:35:41] Asteroid spawned.
+[2025-06-17 08:35:42] Enemy Destroyed.
+[2025-06-17 08:35:44] EnemyShip spawned.
+[2025-06-17 08:35:44] TwiceDamagePowerUp spawned.
+[2025-06-17 08:35:45] Asteroid spawned.
+[2025-06-17 08:35:46] TwiceDamagePowerUp effect expired.
+[2025-06-17 08:35:46] Enemy Destroyed.
+[2025-06-17 08:35:46] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:35:52] Game started.
+[2025-06-17 08:35:52] PlayerShip spawned.
+[2025-06-17 08:35:53] New Game started.
+[2025-06-17 08:35:53] EnemyShip spawned.
+[2025-06-17 08:35:53] Asteroid spawned.
+[2025-06-17 08:35:53] MaxHealthPowerUp spawned.
+[2025-06-17 08:35:56] Player collected a MaxHealthPowerUp.
+[2025-06-17 08:35:57] Asteroid spawned.
+[2025-06-17 08:35:59] Enemy Destroyed.
+[2025-06-17 08:35:59] EnemyShip spawned.
+[2025-06-17 08:36:03] Game Saved.
+[2025-06-17 08:36:06] Load Game clicked.
+[2025-06-17 08:36:07] Asteroid spawned.
+[2025-06-17 08:36:07] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:36:13] Game started.
+[2025-06-17 08:36:13] PlayerShip spawned.
+[2025-06-17 08:36:14] New Game started.
+[2025-06-17 08:36:14] EnemyShip spawned.
+[2025-06-17 08:36:14] Asteroid spawned.
+[2025-06-17 08:36:14] MaxHealthPowerUp spawned.
+[2025-06-17 08:36:16] Enemy Destroyed.
+[2025-06-17 08:36:19] Asteroid spawned.
+[2025-06-17 08:36:20] EnemyShip spawned.
+[2025-06-17 08:36:22] Asteroid spawned.
+[2025-06-17 08:36:22] Enemy Destroyed.
+[2025-06-17 08:36:25] Asteroid Destroyed.
+[2025-06-17 08:36:26] EnemyShip spawned.
+[2025-06-17 08:36:27] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:36:27] Asteroid spawned.
+[2025-06-17 08:36:28] Enemy Destroyed.
+[2025-06-17 08:36:28] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:36:33] Game started.
+[2025-06-17 08:36:34] PlayerShip spawned.
+[2025-06-17 08:36:35] New Game started.
+[2025-06-17 08:36:35] EnemyShip spawned.
+[2025-06-17 08:36:35] Asteroid spawned.
+[2025-06-17 08:36:35] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:36:38] Enemy Destroyed.
+[2025-06-17 08:36:39] Asteroid spawned.
+[2025-06-17 08:36:43] Game Saved.
+[2025-06-17 08:36:46] Load Game clicked.
+[2025-06-17 08:36:47] EnemyShip spawned.
+[2025-06-17 08:36:48] Asteroid spawned.
+[2025-06-17 08:36:50] Asteroid Destroyed.
+[2025-06-17 08:36:50] Asteroid Destroyed.
+[2025-06-17 08:36:51] Enemy Destroyed.
+[2025-06-17 08:36:51] Asteroid spawned.
+[2025-06-17 08:36:52] MaxHealthPowerUp spawned.
+[2025-06-17 08:36:53] EnemyShip spawned.
+[2025-06-17 08:36:56] Asteroid spawned.
+[2025-06-17 08:36:59] EnemyShip spawned.
+[2025-06-17 08:36:59] Enemy Destroyed.
+[2025-06-17 08:37:00] Asteroid spawned.
+[2025-06-17 08:37:02] Enemy Destroyed.
+[2025-06-17 08:37:04] MaxHealthPowerUp spawned.
+[2025-06-17 08:37:05] Asteroid spawned.
+[2025-06-17 08:37:05] EnemyShip spawned.
+[2025-06-17 08:37:05] Player collected a MaxHealthPowerUp.
+[2025-06-17 08:37:09] Asteroid spawned.
+[2025-06-17 08:37:10] Enemy Destroyed.
+[2025-06-17 08:37:10] EnemyShip spawned.
+[2025-06-17 08:37:12] Enemy Destroyed.
+[2025-06-17 08:37:13] Asteroid spawned.
+[2025-06-17 08:37:17] MaxHealthPowerUp spawned.
+[2025-06-17 08:37:17] EnemyShip spawned.
+[2025-06-17 08:37:18] Asteroid spawned.
+[2025-06-17 08:37:21] Enemy Destroyed.
+[2025-06-17 08:37:21] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:37:29] Game started.
+[2025-06-17 08:37:29] PlayerShip spawned.
+[2025-06-17 08:37:30] Load Game clicked.
+[2025-06-17 08:37:32] EnemyShip spawned.
+[2025-06-17 08:37:32] Asteroid spawned.
+[2025-06-17 08:37:34] Asteroid Destroyed.
+[2025-06-17 08:37:34] Enemy Destroyed.
+[2025-06-17 08:37:36] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:37:36] Asteroid spawned.
+[2025-06-17 08:37:38] EnemyShip spawned.
+[2025-06-17 08:37:41] Enemy Destroyed.
+[2025-06-17 08:37:41] Asteroid spawned.
+[2025-06-17 08:37:43] EnemyShip spawned.
+[2025-06-17 08:37:46] Asteroid spawned.
+[2025-06-17 08:37:47] Enemy Destroyed.
+[2025-06-17 08:37:48] TwiceDamagePowerUp spawned.
+[2025-06-17 08:37:50] Asteroid spawned.
+[2025-06-17 08:37:50] EnemyShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-17 08:38:34] Game started.
+[2025-06-17 08:38:35] PlayerShip spawned.
+[2025-06-17 08:38:36] New Game started.
+[2025-06-17 08:38:36] EnemyShip spawned.
+[2025-06-17 08:38:36] Asteroid spawned.
+[2025-06-17 08:38:36] TwiceSpeedPowerUp spawned.
+[2025-06-17 08:38:40] Enemy Destroyed.
+[2025-06-17 08:38:40] Asteroid spawned.
+[2025-06-17 08:38:42] EnemyShip spawned.
+[2025-06-17 08:38:45] Asteroid spawned.
+[2025-06-17 08:38:45] Enemy Destroyed.
+[2025-06-17 08:38:47] MaxHealthPowerUp spawned.
+[2025-06-17 08:38:48] EnemyShip spawned.
+[2025-06-17 08:38:49] Asteroid spawned.
+[2025-06-17 08:38:50] Enemy Destroyed.
+[2025-06-17 08:38:53] EnemyShip spawned.
+[2025-06-17 08:38:53] Asteroid spawned.
+[2025-06-17 08:38:54] Player collected a MaxHealthPowerUp.
+[2025-06-17 08:38:57] Enemy Destroyed.
+[2025-06-17 08:38:58] Asteroid spawned.
+[2025-06-17 08:38:58] EnemyShip spawned.
+[2025-06-17 08:38:59] MaxHealthPowerUp spawned.
+[2025-06-17 08:39:01] Game Saved.
+[2025-06-17 08:39:15] Load Game clicked.
+[2025-06-17 08:39:17] Asteroid spawned.
+[2025-06-17 08:39:18] Asteroid Destroyed.
+[2025-06-17 08:39:18] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:39:23] Game started.
+[2025-06-17 08:39:23] PlayerShip spawned.
+[2025-06-17 08:39:24] Load Game clicked.
+[2025-06-17 08:39:26] Asteroid spawned.
+[2025-06-17 08:39:26] Asteroid Destroyed.
+[2025-06-17 08:39:27] Enemy Destroyed.
+[2025-06-17 08:39:29] EnemyShip spawned.
+[2025-06-17 08:39:30] Asteroid spawned.
+[2025-06-17 08:39:33] Enemy Destroyed.
+[2025-06-17 08:39:34] Asteroid spawned.
+[2025-06-17 08:39:34] EnemyShip spawned.
+[2025-06-17 08:39:35] TwiceDamagePowerUp spawned.
+[2025-06-17 08:39:36] Player collected a TwiceDamagePowerUp.
+[2025-06-17 08:39:38] Asteroid spawned.
+[2025-06-17 08:39:39] Enemy Destroyed.
+[2025-06-17 08:39:40] EnemyShip spawned.
+[2025-06-17 08:39:42] Asteroid spawned.
+[2025-06-17 08:39:42] Enemy Destroyed.
+[2025-06-17 08:39:43] TwiceDamagePowerUp effect expired.
+[2025-06-17 08:39:46] EnemyShip spawned.
+[2025-06-17 08:39:46] Asteroid spawned.
+[2025-06-17 08:39:49] Enemy Destroyed.
+[2025-06-17 08:39:49] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 08:41:45] Game started.
+[2025-06-17 08:41:45] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-17 10:11:51] Game started.
+[2025-06-17 10:11:52] PlayerShip spawned.
+[2025-06-17 10:11:53] Load Game clicked.
+[2025-06-17 10:11:55] Asteroid spawned.
+[2025-06-17 10:11:55] Enemy Destroyed.
+[2025-06-17 10:11:58] EnemyShip spawned.
+[2025-06-17 10:11:59] Asteroid spawned.
+[2025-06-17 10:11:59] Enemy Destroyed.
+[2025-06-17 10:12:03] Asteroid spawned.
+[2025-06-17 10:12:04] EnemyShip spawned.
+[2025-06-17 10:12:04] TwiceDamagePowerUp spawned.
+[2025-06-17 10:12:06] Asteroid spawned.
+[2025-06-17 10:12:07] Asteroid Destroyed.
+[2025-06-17 10:12:08] Enemy Destroyed.
+[2025-06-17 10:12:10] EnemyShip spawned.
+[2025-06-17 10:12:10] Asteroid spawned.
+[2025-06-17 10:12:14] Asteroid spawned.
+[2025-06-17 10:12:15] Enemy Destroyed.
+[2025-06-17 10:12:16] EnemyShip spawned.
+[2025-06-17 10:12:17] TwiceDamagePowerUp spawned.
+[2025-06-17 10:12:18] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 10:15:48] Game started.
+[2025-06-17 10:15:49] PlayerShip spawned.
+[2025-06-17 10:15:49] Load Game clicked.
+[2025-06-17 10:15:51] Asteroid spawned.
+[2025-06-17 10:15:52] Enemy Destroyed.
+[2025-06-17 10:15:54] EnemyShip spawned.
+[2025-06-17 10:15:55] Asteroid spawned.
+[2025-06-17 10:15:58] Enemy Destroyed.
+[2025-06-17 10:15:59] Asteroid spawned.
+[2025-06-17 10:15:59] Asteroid Destroyed.
+[2025-06-17 10:15:59] Asteroid Destroyed.
+[2025-06-17 10:15:59] EnemyShip spawned.
+[2025-06-17 10:16:01] MaxHealthPowerUp spawned.
+[2025-06-17 10:16:02] Enemy Destroyed.
+[2025-06-17 10:16:02] Asteroid spawned.
+[2025-06-17 10:16:04] EnemyShip spawned.
+[2025-06-17 10:16:06] Asteroid spawned.
+[2025-06-17 10:16:06] Asteroid Destroyed.
+[2025-06-17 10:16:06] Asteroid Destroyed.
+[2025-06-17 10:16:10] Asteroid spawned.
+[2025-06-17 10:16:11] EnemyShip spawned.
+[2025-06-17 10:16:11] TwiceDamagePowerUp spawned.
+[2025-06-17 10:16:11] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 10:16:44] Game started.
+[2025-06-17 10:16:44] PlayerShip spawned.
+[2025-06-17 10:16:44] New Game started.
+[2025-06-17 10:16:45] EnemyShip spawned.
+[2025-06-17 10:16:45] Asteroid spawned.
+[2025-06-17 10:16:45] TwiceDamagePowerUp spawned.
+[2025-06-17 10:16:48] Enemy Destroyed.
+[2025-06-17 10:16:48] Asteroid spawned.
+[2025-06-17 10:16:50] EnemyShip spawned.
+[2025-06-17 10:16:52] Enemy Destroyed.
+[2025-06-17 10:16:52] Asteroid spawned.
+Log file initialized: gamelog.txt
+[2025-06-17 10:17:38] Game started.
+[2025-06-17 10:17:38] PlayerShip spawned.
+[2025-06-17 10:17:40] New Game started.
+[2025-06-17 10:17:40] EnemyShip spawned.
+[2025-06-17 10:17:40] Asteroid spawned.
+[2025-06-17 10:17:40] MaxHealthPowerUp spawned.
+[2025-06-17 10:17:43] Enemy Destroyed.
+[2025-06-17 10:17:44] Asteroid spawned.
+[2025-06-17 10:17:45] Game Saved.
+[2025-06-17 10:17:46] Load Game clicked.
+[2025-06-17 10:17:47] EnemyShip spawned.
+[2025-06-17 10:17:50] Enemy Destroyed.
+[2025-06-17 10:17:51] Asteroid spawned.
+[2025-06-17 10:17:52] EnemyShip spawned.
+[2025-06-17 10:17:54] Enemy Destroyed.
+[2025-06-17 10:17:56] Asteroid spawned.
+[2025-06-17 10:17:56] MaxHealthPowerUp spawned.
+[2025-06-17 10:17:58] EnemyShip spawned.
+[2025-06-17 10:18:00] Asteroid spawned.
+[2025-06-17 10:18:02] Enemy Destroyed.
+[2025-06-17 10:18:02] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 10:20:26] Game started.
+[2025-06-17 10:20:26] PlayerShip spawned.
+[2025-06-17 10:20:27] Load Game clicked.
+[2025-06-17 10:20:27] EnemyShip spawned.
+[2025-06-17 10:20:27] Asteroid spawned.
+[2025-06-17 10:20:27] TwiceDamagePowerUp spawned.
+[2025-06-17 10:20:27] PlayerShip destroyed. GAME OVER.
+Log file initialized: gamelog.txt
+[2025-06-17 10:20:33] Game started.
+[2025-06-17 10:20:33] PlayerShip spawned.
+Log file initialized: gamelog.txt
+[2025-06-17 10:20:46] Game started.
+[2025-06-17 10:20:46] PlayerShip spawned.
+[2025-06-17 10:20:48] New Game started.
+[2025-06-17 10:20:48] EnemyShip spawned.
+[2025-06-17 10:20:48] Asteroid spawned.
+[2025-06-17 10:20:48] TwiceSpeedPowerUp spawned.
+[2025-06-17 10:20:50] Game Saved.
+[2025-06-17 10:20:51] Load Game clicked.
+[2025-06-17 10:20:53] PlayerShip destroyed. GAME OVER.
