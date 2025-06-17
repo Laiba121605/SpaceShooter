@@ -5,7 +5,9 @@
 PlayerShip::PlayerShip(int posx, int posy, const char* path) :
     Ship(posx, posy, GREEN, path), score(0), firecooldown(0),
 	rotationspeed(3.0f), thrustpower(0.3f), projectiledamage(50)
-{}
+{
+	sprite = LoadTexture(path);
+}
 
 void PlayerShip::rotate()
 {
@@ -102,6 +104,26 @@ void PlayerShip::update(vector<Projectile>& projectiles)
     fireprojectile(projectiles);
 }
 
+void PlayerShip::draw() const
+{
+    Vector2 pos{ (float)positionx.get(), (float)positiony.get() };
+    DrawTextureEx(sprite, pos, angle, 0.1f, WHITE);
+
+    // healthbar display
+
+    float hpbarw = 40, hpbarh = 5;
+    float pct = (float)health / maxhealth;
+
+    if (health <= 0)
+    {
+        pct = 0; // make sure health bar doesn't show negative health
+        return; // so health is not drawn when dead
+    }
+
+    DrawRectangle(positionx.get() - 20, positiony.get() + radius.get() + 10, hpbarw, hpbarh, GRAY);
+    DrawRectangle(positionx.get() - 20, positiony.get() + radius.get() + 10, (int)(hpbarw * pct), hpbarh, GREEN);
+}
+
 int PlayerShip:: getscore() const 
 {
     return score; 
@@ -151,4 +173,9 @@ void PlayerShip::setdamage(int d)
 int PlayerShip::getdamage() const
 {
     return projectiledamage;
+}
+
+PlayerShip::~PlayerShip()
+{
+	UnloadTexture(sprite); 
 }

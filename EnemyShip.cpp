@@ -5,6 +5,7 @@
 EnemyShip::EnemyShip(int posx, int posy, const char* path)
     : Ship(posx, posy, RED, path), firecooldown(0), speed(2.5f)
 {
+    sprite = LoadTexture(path);
 }
 
 void EnemyShip::rotatetowards(int tx, int ty)
@@ -104,7 +105,33 @@ void EnemyShip::update(vector<Projectile>& projectiles, int targetx, int targety
     fireprojectile(projectiles, targetx, targety);
 }
 
+void EnemyShip::draw() const
+{
+	Vector2 pos{ positionx.get(), positiony.get() };
+    DrawTextureEx(sprite, pos, angle, 0.1f, WHITE);
+
+    // healthbar display
+
+    float hpbarw = 40, hpbarh = 5;
+    float pct = (float)health / maxhealth;
+
+    if (health <= 0)
+    {
+        pct = 0; // make sure health bar doesn't show negative health
+        return; // so health is not drawn when dead
+    }
+
+    DrawRectangle(positionx.get() - 20, positiony.get() + radius.get() + 10, hpbarw, hpbarh, GRAY);
+    DrawRectangle(positionx.get() - 20, positiony.get() + radius.get() + 10, (int)(hpbarw * pct), hpbarh, GREEN);
+
+}
+
 Texture EnemyShip:: getsprite() const
 {
     return sprite; 
+}
+
+EnemyShip::~EnemyShip()
+{
+	UnloadTexture(sprite);
 }

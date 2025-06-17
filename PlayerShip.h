@@ -19,6 +19,7 @@ public:
     PlayerShip(int posx, int posy, const char* path);
     void update(vector<Projectile>& projectiles);
     void fireprojectile(vector<Projectile>& projectiles);
+    void draw() const override;
     void rotate() override;
     void move() override;
     int getscore() const;
@@ -31,6 +32,7 @@ public:
     void setradius(int r);
     void setdamage(int d);
     int getdamage() const;
+	~PlayerShip() override;
 };
 
 #endif

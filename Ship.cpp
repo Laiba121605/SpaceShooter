@@ -5,9 +5,7 @@
 Ship::Ship(int posx, int posy, Color col, const char* path) :
     positionx(posx), positiony(posy), velocityx(0), velocityy(0), angle(0.0f),
     acceleration(0.1f), mass(1.0f), radius(20), health(100), maxhealth(100), color(col), size(0.100)
-{
-    sprite = LoadTexture(path);
-}
+{}
 
 void Ship::rotate() {}
 void Ship::move() {}
@@ -86,9 +84,7 @@ bool Ship::isdead() const
 }
 
 Ship::~Ship()
-{
-    UnloadTexture(sprite);
-}
+{}
 
 SafeValue<int> Ship::getsize() const
 {

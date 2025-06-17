@@ -30,7 +30,7 @@ public:
 
     virtual void rotate();
     virtual void move();
-    void draw() const;
+    virtual void draw() const = 0;
     void warp();
     int getx() const;
     int gety() const;

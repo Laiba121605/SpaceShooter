@@ -15,10 +15,12 @@ class EnemyShip : public Ship
 public:
     EnemyShip(int posx, int posy, const char* path);
     void update(vector<Projectile>& projectiles, int targetx, int targety);
+	void draw() const override;
     void rotatetowards(int tx, int ty);
     void movetowards(int tx, int ty);
     void fireprojectile(vector<Projectile>& projectiles, int tx, int ty);
     Texture getsprite() const;
+    ~EnemyShip() override;
 };
 
 #endif
